@@ -8,7 +8,7 @@ object RetrofitInstance {
 //https://jsonplaceholder.typicode.com/posts
   private  fun getInstance ():Retrofit{
         return Retrofit.Builder()
-            .baseUrl("//https://jsonplaceholder.typicode.com//")
+            .baseUrl("https://jsonplaceholder.typicode.com//")
             .addConverterFactory(GsonConverterFactory.create())
                 .build()
 
